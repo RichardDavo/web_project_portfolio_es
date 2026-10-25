@@ -1,0 +1,9 @@
+.page {
+  font-family: "open-sans", sans-serif;
+  font-size: 18px;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #111111;
+  color: #ffffff;
+}

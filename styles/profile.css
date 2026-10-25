@@ -1,0 +1,31 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+.profile-title {
+  font-family: "Archivo";
+  margin-top: 50px;
+  font-size: 72px;
+  line-height: 1.1;
+  max-width: 300px;
+}
+.profile-description {
+  max-width: 750px;
+}
+.profile-media-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+}
+.profile-button {
+  list-style: none;
+}
+.profile-button-a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #4c1a97, #6d6dff);
+  border-image-slice: 1;
+}
