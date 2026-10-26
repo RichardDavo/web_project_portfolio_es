@@ -1,5 +1,28 @@
 .media {
+  flex-direction: column;
+}
+.media-title {
+  font-family: ArchivoBlac-Regular;
+  font-size: 40px;
+}
+.media-icons {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+}
+.media__image {
+}
+.media-outstanding {
+  display: flex;
+  flex-direction:;
+  gap: 20px;
+}
+.media__image__outstanding {
+}
+.project__text {
+  font-size: 18px;
+  font-family: OpenSans-Regular;
+}
+.project__card__title {
+  font-family: OpenSans-Bold;
+  font-size: 20px;
 }
