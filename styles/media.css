@@ -4,10 +4,12 @@
 .media-title {
   font-family: ArchivoBlac-Regular;
   font-size: 40px;
+  margin: 0 0 50px 0;
 }
 .media-icons {
   display: flex;
   justify-content: space-between;
+  margin: 0 0 100px 0;
 }
 .media__image {
 }

@@ -1,4 +1,6 @@
 .content {
+  width: calc(100% - 40px);
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto 0;
+  box-sizing: border-box;
 }
