@@ -38,11 +38,14 @@
             </ul>
           </div>
         </div>
-        <img
-          class="profile__image"
-          src="./images/foto perfil.png"
-          alt="Profile Image"
-        />
+        <div class="profile__image__group">
+          <div class="profile__circle"></div>
+          <img
+            class="profile__image"
+            src="./images/foto perfil.png"
+            alt="Profile Image"
+          />
+        </div>
       </section>
       <section class="media">
         <h1 class="media-title">Habilidades y herramientas</h1>
@@ -82,81 +85,119 @@
         <h1 class="media-title">Proyectos destacados</h1>
 
         <div class="media-outstanding">
-          <div class="project__card__a">
-            <div class="project__image__group">
+          <div class="media__card">
+            <div class="media__image__group">
               <img
                 class="media__image__outstanding"
                 src="./images/cafe.png"
                 alt="imagen-cafeteria"
               />
-              <img
-                class="footer__image_min"
-                src="./images/min1.png"
-                alt="imagen-referencial-herramienta-1"
-              />
-              <img
-                class="footer__image_min"
-                src="./images/min2.png"
-                alt="imagen-referencial-herramienta-2"
-              />
+              <div class="media__card__tags">
+                <img
+                  class="footer__image_min"
+                  src="./images/min1.png"
+                  alt="imagen-referencial-herramienta-1"
+                />
+                <img
+                  class="footer__image_min"
+                  src="./images/min2.png"
+                  alt="imagen-referencial-herramienta-2"
+                />
+              </div>
             </div>
-
-            <h2 class="project__card__title">Página web de una cafetería</h2>
-            <p class="project__text">
-              Desarrollo de una landing page responsiva para una cafetería
-              siguiendo un brief de diseño. Incluye estructura semántica,
-              maquetación con Flexbox, creación de secciones nuevas y un
-              formulario de contacto funcional.Logro: Implementé desde cero el
-              diseño completo de la página, organicé el proyecto con buenas
-              prácticas y publiqué la versión final utilizando GitHub Pages.
-            </p>
-            <img
-              class="footer__image_min"
-              src="./images/minall.png"
-              alt="imagen-referencial-herramienta-5"
-            />
+            <div class="media__card__text">
+              <h2 class="media__card__title">Página web de una cafetería</h2>
+              <p class="media__text">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional.<br />
+                Logro: Implementé desde cero el diseño completo de la página,
+                organicé el proyecto con buenas prácticas y publiqué la versión
+                final utilizando GitHub Pages.
+              </p>
+              <div class="media-card__links">
+                <img
+                  class="media__image_min"
+                  src="./images/minall1.png"
+                  alt="imagen-referencial-demo"
+                />
+                <img
+                  class="media__image_min"
+                  src="./images/minall.png"
+                  alt="imagen-referencial-githublink"
+                />
+              </div>
+            </div>
           </div>
-          <div class="project__card__b">
-            <div class="project__image__group">
+          <div class="media__card">
+            <div class="media__image__group">
               <img
                 class="media__image__outstanding"
                 src="./images/proyecto.png"
                 alt="imagen-programación"
               />
-              <img
-                class="footer__image_min"
-                src="./images/min4.png"
-                alt="imagen-referencial-herramienta-3"
-              />
-              <img
-                class="footer__image_min"
-                src="./images/min3.png"
-                alt="imagen-referencial-herramienta-4"
-              />
+              <div class="media__card__tags">
+                <img
+                  class="media__image_min"
+                  src="./images/min3.png"
+                  alt="imagen-referencial-herramienta-4"
+                />
+                <img
+                  class="media__image_min"
+                  src="./images/min4.png"
+                  alt="imagen-referencial-herramienta-3"
+                />
+              </div>
             </div>
-
-            <h2 class="project__card__title">Mi proyecto</h2>
-            <p class="project__text">Descripción del proyecto</p>
-            <img
-              class="footer__image_min"
-              src="./images/minall.png"
-              alt="imagen-referencial-herramienta-5"
-            />
+            <div class="media__card__text">
+              <h2 class="media__card__title">Mi proyecto</h2>
+              <p class="media__text__one">Descripción del proyecto</p>
+              <div class="media-card__links">
+                <img
+                  class="footer__image_min"
+                  src="./images/minall1.png"
+                  alt="imagen-referencial-demo"
+                />
+                <img
+                  class="footer__image_min"
+                  src="./images/minall.png"
+                  alt="imagen-referencial-githublink"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer-info">
-      <h1>Contacto</h1>
-
-      <img class="footer__image" src="./images/link.png" alt="icono-linkedin" />
-      <img class="footer__image" src="./images/face.png" alt="icono-facebook" />
-      <img
-        class="footer__image"
-        src="./images/inst.png"
-        alt="icono-instagram"
-      />
-      <img class="footer__image" src="./images/twi.png" alt="icono-X" />
+      <div class="footer__circle"></div>
+      <h2 class="footer__title">Contacto</h2>
+      <a href="mailto:student@tripleten.com" class="footer__email">
+        student@tripleten.com
+      </a>
+      <div class="footer__socials">
+        <img
+          class="footer__image__left"
+          src="./images/link.png"
+          alt="icono-linkedin"
+        />
+        <img
+          class="footer__image__center"
+          src="./images/face.png"
+          alt="icono-facebook"
+        />
+        <img
+          class="footer__image__center"
+          src="./images/inst.png"
+          alt="icono-instagram"
+        />
+        <img
+          class="footer__image__right"
+          src="./images/twi.png"
+          alt="icono-X"
+        />
+      </div>
     </footer>
   </body>
 </html>
