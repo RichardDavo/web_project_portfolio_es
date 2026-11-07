@@ -23,7 +23,7 @@
   display: flex;
   gap: 30px;
   padding-left: 0;
-  margin: 0 0 120px 0;
+  margin: 0 0 90px 0;
 }
 .profile-button {
   list-style: none;
@@ -92,6 +92,7 @@
     width: 216px;
     height: 280px;
     flex-shrink: 0;
+    overflow: clip;
   }
   .profile-title {
     font-size: 58px;
@@ -102,4 +103,8 @@
     font-size: 18px;
     max-width: 452px;
   }
+}
+.profile__circle {
+  width: 216px;
+  height: 216px;
 }
