@@ -187,4 +187,7 @@
   .media__card:nth-child(2) .media__card__text {
     padding-bottom: 4px;
   }
+  .profile__circle {
+    left: -15px;
+  }
 }
